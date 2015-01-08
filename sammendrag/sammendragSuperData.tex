@@ -81,5 +81,20 @@ A few aspects that can cause this: \begin{itemize}
 \end{itemize}
 Other ways to change solution time for this simulation could be to change the computer, or change the computational/numerical algorithms.
 
-\section{Floating point representation}
+\section{Floating point representation - the IEEE standard}
+All real numbers are represented with a finite number of bits. The actual decimal value V of the floating point is: 
+\begin{equation}
+V = (-1)^S \cdot 2^{E-B} \cdot M
+\end{equation}
+\begin{figure}[H]
+\includegraphics[scale=1.0]{ieee}
+\label{floatingpoint}
+\caption{Each floating point has a binary representation with three fields: S denotes the sign of the number, E is an exponent, and F is the fraction part of the mantissa}
+\end{figure}
+A value $S = 0$ means that the number is positive, while S = 1 means that the number is negative. E is an exponent that can be adjusted so that the Mantissa can be expressed as 
+\begin{equation}
+M = 1 \cdot b_{1} b_{2} ...
+\end{equation}
+
+
 \end{document}

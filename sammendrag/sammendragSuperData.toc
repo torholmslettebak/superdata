@@ -3,4 +3,4 @@
 \contentsline {section}{\numberline {2}Supercomputing}{1}{section.2}
 \contentsline {subsection}{\numberline {2.1}Solution time on supercomputer}{1}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Single-processor performance}{2}{subsubsection.2.1.1}
-\contentsline {section}{\numberline {3}Floating point representation}{2}{section.3}
+\contentsline {section}{\numberline {3}Floating point representation - the IEEE standard}{2}{section.3}

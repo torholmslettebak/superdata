@@ -44,6 +44,7 @@ void read()
 
 
 	}
+	fclose(file);
 }
 
 void matrixVectorProduct()

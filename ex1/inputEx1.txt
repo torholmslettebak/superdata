@@ -1,0 +1,12 @@
+
+# input file for product of Matrix A and Vector X, y = Ax
+# line 6 size of matrix A, only square matrix's , and therefor also size of x-vector i.e. System size
+# Line 7 - 9 is the A matrix
+# Line 10 through 12 is x-vector
+3
+0.3	0.4 0.3
+0.7 0.1 0.2
+0.5	0.5	0.0
+1.0
+1.0
+1.0

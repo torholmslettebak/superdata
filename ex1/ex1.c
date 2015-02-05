@@ -62,8 +62,6 @@ void matrixVectorProduct()
 
 }
 
-
-
 int main(int argc, char *argv[])
 {
 	read();
